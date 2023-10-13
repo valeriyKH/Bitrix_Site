@@ -21,7 +21,6 @@ $arDate = getdate(strtotime($arResult['ACTIVE_FROM']));
 $str = $arResult['NAME'].', '.$arDate['mday'].' '.$month[(int)$arDate['mon']].' '.$arDate['year'].' г.';
 if ($arResult['PROPERTIES']['POSITION']['VALUE']) $str .= ', '.$arResult['PROPERTIES']['POSITION']['VALUE'];
 if ($arResult['PROPERTIES']['COMPANY']['VALUE']) $str .= ', '.$arResult['PROPERTIES']['COMPANY']['VALUE'];
-echo '<pre>'.htmlspecialchars(print_r($arResult, true)).'</pre>';
 
 
 if (isset($arResult['DETAIL_PICTURE']['SRC'])) {
