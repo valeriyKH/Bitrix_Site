@@ -3,7 +3,7 @@
 
 ?>
 <div class="side-block side-anonse">
-    <div class="title-block"><span class="i i-title01"></span><?=GetMessage('SIDE_BAR') ?>></div>
+    <div class="title-block"><span class="i i-title01"></span><?=GetMessage('SIDE_BAR') ?></div>
     <div class="item">
         <p><?=$str ?></p>
     </div>
